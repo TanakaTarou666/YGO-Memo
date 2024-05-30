@@ -1,0 +1,67 @@
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    margin-top: 20px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    /* 適宜調整 */
+    height: auto;
+    /* 適宜調整 */
+    margin: 2px;
+}
+
+.comment {
+    position: absolute;
+    bottom: 0%;
+    /* コメントをコンテナの下部に配置 */
+    left: 0;
+    width: 100%;
+    /* コメントの幅をコンテナの幅に合わせる */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 背景色と透明度 */
+    color: white;
+    /* テキスト色 */
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.control-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.branch-buttons {
+    display: flex;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

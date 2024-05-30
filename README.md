@@ -10,7 +10,7 @@
 
 2. dataフォルダに新しいJavaScriptファイルを作成します。ここでは例としてtest.jsとします。
 
-3. index.html内のスクリプトタグを編集し、SnakeFTK.jsをest.jsに変更します。
+3. index.html内のスクリプトタグを編集し、SnakeFTK.jsをtest.jsに変更します。
 
 4. data/test.jsファイル内のcsvData変数を使用して、画像の表示位置を管理します(SnakeFTK.js,template.jsを参考に)。
 
